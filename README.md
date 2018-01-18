@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ImageGallary
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
@@ -25,3 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# image-gallary
+image-gallary-anular4
+1. Install angular cli (refer https://github.com/angular/angular-cli)
+2. run npm i (if node is not installed please install nodejs )
+3. run ng serve
+5. http://localhost:4200/
+>>>>>>> 2f6ec6d2af896d98d4b6a3856e86c1042118d087
