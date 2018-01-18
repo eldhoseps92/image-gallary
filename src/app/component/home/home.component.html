@@ -1,0 +1,19 @@
+<div class="field" >
+		      <input class="form-control" type="text" [(ngModel)]="searchKey" placeholder="what do you want ?" />
+		      <button type="button" (click)="search()" id="search">Find</button>
+  	  </div>
+
+<div class="container" >
+    <p></p>
+	<div class="grid" >
+        <div *ngFor="let url of urls;let i =index;" class="cell"><img class="img-responsive" [src]="url.url" />
+         <div class="  effect1 col-sm-9"> 
+  <button class="btn btn-warning"  (click)="counter(i)">
+    <i class="fa fa-heart" aria-hidden="true"></i> {{url.count}}
+  </button><span class="fontStyle">&nbsp;&nbsp;{{url.desc}}</span> </div>
+        </div>
+      
+    </div>
+    
+</div>
+

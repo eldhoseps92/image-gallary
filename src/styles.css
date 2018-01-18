@@ -1,0 +1,104 @@
+img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+    
+}
+
+img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+            margin-bottom:30px;
+}
+ .btn-warning {
+
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+ }      
+
+
+
+.fontStyle{
+    font-style: italic !important;
+    font-weight: bold!important;
+}
+
+
+
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:30%;
+  border-style: ridge;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em Myriad Pro;
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em ;
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:#2ecc71;
+  color:white;
+  border:none;
+}
+.field>button:hover {
+	cursor:pointer;
+}
+h1{
+	background:#2980b9;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+	font-size:24px;
+}
